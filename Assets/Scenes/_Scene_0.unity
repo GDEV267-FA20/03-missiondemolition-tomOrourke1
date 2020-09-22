@@ -336,8 +336,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335308749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10, z: 0}
-  m_LocalScale: {x: 100, y: 1, z: 4}
+  m_LocalPosition: {x: 100, y: -10, z: 0}
+  m_LocalScale: {x: 400, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 1114210028}
   - component: {fileID: 1114210027}
   - component: {fileID: 1114210026}
+  - component: {fileID: 1114210029}
   m_Layer: 0
   m_Name: _MainCamera
   m_TagString: MainCamera
@@ -506,6 +507,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1114210029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114210025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd970cc028070814ba1800e52722754e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camZ: 0
 --- !u!1 &1635201365
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +673,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4208e56e53e27548b322886c5abff25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabProjectile: {fileID: 894856874895170710, guid: cb7d853bc31b43143b9ecbf118f80903, type: 3}
+  velocityMult: 8
+  launchPoint: {fileID: 143779937}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMode: 0
 --- !u!1 &1887692059
 GameObject:
   m_ObjectHideFlags: 0
