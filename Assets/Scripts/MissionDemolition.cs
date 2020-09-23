@@ -132,7 +132,7 @@ public class MissionDemolition : MonoBehaviour
 
         switch (showing)
         {
-            case "Show SLingshot":
+            case "Show Slingshot":
                 FollowCam.POI = null;
                 uitButton.text = "Show Castle";
                 break;
